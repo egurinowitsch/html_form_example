@@ -1,0 +1,70 @@
+/* CSS Document */
+
+html{background-color:#666;}
+
+body{background-color:white; 
+	width:760px;
+	margin:0 auto; 
+	padding:0 50px 15px 50px;
+	overflow:auto;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12;
+	outline:none;
+	}
+form{
+	width:400px;
+	padding:20px; 
+	margin-left:75px;}
+p{font-weight:bold; font-size:16px;}	
+h1{padding-top:25px;}
+.page{margin-left:580px; overflow:hidden; font-family:Verdana, Geneva, sans-serif; font-size:14px; font-weight:bold;}
+fieldset{margin:25px;}
+legend{font-weight:bold; font-size:20px;}
+
+#reset1{width:75px; height:24px; display:block; float:left; margin:15px 0 0 430px; overflow:hidden;}
+#reset2{width:75px; height:24px; display:block; float:left; margin:15px 0 0 350px; overflow:hidden;}
+#back1, #back2, #back3, #back4, #back5{width:75px; height:24px; float:left; display:block; margin:-24px 0 0 430px; overflow:hidden;}
+#next1, #next2, #next3, #next4, #next5{width:75px; height:24px; float:left; display:block; margin:-24px 0 0 510px;}
+#submit{width:100px; height:24px; float:left; display:block; margin:-24px 0 0 485px;}
+#back5{width:75px; height:24px; float:left; display:block; margin:-24px 0 0 405px; overflow:hidden;}
+#reset3{width:75px; height:24px; display:block; float:left; margin:15px 0 0 325px; overflow:hidden;}
+#add_job{width:75px; height:24px; clear:both; margin:20px -50px 30px 0; display:block;}
+
+
+
+label{width:200px; display:block; margin:15px 0 0 5px; text-align:right; }
+input{width:150px;  float:right;  margin:-20px 30px 0 ;}
+#ss1{width:20px;  clear:both; margin:-20px 160px 0 0;}
+#ss2{width:15px;  clear:both; margin:-22px 135px 0 0;}
+#ss3{width:26px;  clear:both; margin:-22px 98px 0 0;}
+#state{float:right; display:block; margin:-22px 58px 0 0;}
+#cell1, #home1, #phone1{width:20px;  clear:both; margin:-20px 160px 0 0;}
+#cell2, #home2, #phone2{width:20px;  clear:both; margin:-22px 130px 0 0;}
+#cell3, #home3, #phone3{width:26px;  clear:both; margin:-22px 94px 0 0;}
+#edu_completed{margin-left:62px;}
+#ged, #diploma, #twoyr, #fouryr, #certs, #citizen_yes, #citizen_no,
+#felon_yes, #felon_no, #age_yes, #age_no, #monday, #tuesday, #wednesday,
+#thursday, #friday, #saturday, #sunday, #flash, #photoshop, #illustrator, #inDesign,
+#web_design, #web_development{margin-right:95px;}
+#zip{width:40px; margin-right:139px;}
+#full_time, #part_time, #full_time_yes, #full_time_no{float:left; margin-left:150px; margin-top:-16px;}
+#hours_from, #hours_to{width:40px; margin-right:130px;}
+#user_comment{width:375px; clear:both; display:block; }
+#user_comment2{width:375px; height:200px; clear:both; display:block; }
+#pic{width:30px; height:30px;}
+#job_title, #duties, #employer{width:225px; margin-right:-45px;}
+#yrs_worked{margin:-20px 90px 0 0; float:right; display:block; overflow:visible;}
+
+
+div {
+    display: none; float:right; margin:-115px -670px 0 0; overflow:hidden; 
+}
+
+a:hover + div {
+    display: block;
+	
+}
+
+a{ padding:-25px 0 -200px 0; margin-left:400px; overflow:hidden; float:right; }
+
+#page2, #full_time2, #part_time2, #page3, #design_job, #page4, #page5{display:none;}

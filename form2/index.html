@@ -1,0 +1,322 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Web Designer/Developer Job Application</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script src="js/script.js"></script>
+</head>
+
+<body>
+	<h1>Web Designer/Developer Job Application</h1>
+    <hr/>
+    	<fieldset id="page1">
+        <legend>Personal Information</legend>
+                	   
+            <p class="page">Page 1 of 5<p>
+        
+            <form action="" method="post" id="personal_info">
+                
+                <label for="user_fname">First Name:</label>
+        		<input type="text" name="user_fname" id="user_fname" >
+           
+                <label for="user_lname">Last Name:</label>
+        		<input type="text" name="user_lname" id="user_lname"  >
+                
+                <label for="ss">Social Security #:</label>
+        		<input type="text" placeholder="xxx" name="ss" id="ss1"  maxlength="3" >
+                <input type="text" placeholder="xx" name="ss" id="ss2"  maxlength="2" >
+                <input type="text" placeholder="xxxx" name="ss" id="ss3"  maxlength="4" >
+                
+                <label for="street_address">Street Address:</label>
+        		<input type="text" name="street_address" id="street_address">
+                
+                <label for="city">City:</label>
+        		<input type="text" name="city" id="city">
+                
+                <label for="state">State:</label>
+        		<select name="State" id="state" >
+                	  <option>---</option>
+  					  <option value="Alabama">Alabama</option>
+                      <option value="Alaska">Alaska</option>
+                      <option value="Arizona">Arizona</option>
+                      <option value="Arkansas">Arkansas</option>
+                      <option value="California">California</option>
+                      <option value="Colorado">Colorado</option>
+                      <option value="Connecticut">Connecticut</option>
+                      <option value="Delaware">Delaware</option>
+                      <option value="Florida">Florida</option>
+                      <option value="Georgia">Georgia</option>
+                      <option value="Hawaii">Hawaii</option>
+                      <option value="Idaho">Idaho</option>
+                      <option value="Illinois">Illinois</option>
+                      <option value="Indiana">Indiana</option>
+                      <option value="Iowa">Iowa</option>
+                      <option value="Kansas">Kansas</option>
+                      <option value="Kentucky">Kentucky</option>
+                      <option value="Louisiana">Louisiana</option>
+                      <option value="Maine">Maine</option>
+                      <option value="Maryland">Maryland</option>
+                      <option value="Massachusetts">Massachusetts</option>
+                      <option value="Michigan">Michigan</option>
+                      <option value="Minnesota">Minnesota</option>
+                      <option value="Mississippi">Mississippi</option>
+                      <option value="Missouri">Missouri</option>
+                      <option value="Montana">Montana</option>
+                      <option value="Nebraska">Nebraska</option>
+                      <option value="Nevada">Nevada</option>
+                      <option value="New Hampshire">New Hampshire</option>
+                      <option value="New Jersey">New Jersey</option>
+                      <option value="New Mexico">New Mexico</option>
+                      <option value="New York">New York</option>
+                      <option value="North Carolina">North Carolina</option>
+                      <option value="North Dakota">North Dakota</option>
+                      <option value="Ohio">Ohio</option>
+                      <option value="Oklahoma">Oklahoma</option>
+                      <option value="Oregon">Oregon</option>
+                      <option value="Pennsylvania">Pennsylvania</option>
+                      <option value="Rhode Island">Rhode Island</option>
+                      <option value="South Carolina">South Carolina</option>
+                      <option value="South Dakota">South Dakota</option>
+                      <option value="Tennessee">Tennessee</option>
+                      <option value="Texas">Texas</option>
+                      <option value="Utah">Utah</option>
+                      <option value="Vermont">Vermont</option>
+                      <option value="Virginia">Virginia</option>
+                      <option value="Washington">Washington</option>
+                      <option value="West Virginia">West Virginia</option>
+                      <option value="Wisconsin">Wisconsin</option>
+                      <option value="Wyoming">Wyoming</option>
+                	</select>
+                    <label for="zip">Zipcode:</label>
+        		<input type="text" name="zip" id="zip"  maxlength="5" >
+                
+                <label for="cell">Phone Number (Cell):</label>
+        		<input type="text" placeholder="xxx" name="cell" id="cell1"  maxlength="3" >
+                <input type="text" placeholder="xxx" name="cell" id="cell2"  maxlength="3" >
+                <input type="text" placeholder="xxxx" name="cell" id="cell3"  maxlength="4" >
+                
+                <label for="home">Phone Number (Home):</label>
+        		<input type="text" placeholder="xxx" name="home" id="home1"  maxlength="3" >
+                <input type="text" placeholder="xxx" name="home" id="home2"  maxlength="3" >
+                <input type="text" placeholder="xxxx" name="home" id="home3"  maxlength="4" >
+                
+                <label for="email">Email:</label>
+        		<input type="text" name="email" id="email"  placeholder="john@yahoo.com">
+                
+                <label for="confirm">Confirm Email:</label>
+        		<input type="text" name="confirm" id="confirm" >
+                
+                <p id="edu_completed">Education Completed:</p>
+                <section id="edu_section">
+                <label for="ged">GED</label>
+                <input type="checkbox" value="ged" name="edu_completed" id="ged">
+                <label for="diploma">High School Diploma</label>
+                <input type="checkbox" value="diploma" name="edu_completed" id="diploma">
+                <label for="twoyr">2 YR Degree</label>
+                <input type="checkbox" value="twoyr" name="edu_completed" id="twoyr">
+                <label for="fouryr">4 YR Degree</label>
+                <input type="checkbox" value="fouryr" name="edu_completed" id="fouryr">
+                <label for="certs">Certifications</label>
+                <input type="checkbox" value="certs" name="edu_completed" id="certs">
+        		</section>
+                
+                <p id="us_citizen">Are you currently a U.S. citizen?</p>	
+                <section>
+                <label for="citizen_yes">Yes</label>
+                <input type="radio" value="citizen_yes" name="us_citizen" id="citizen_yes">
+                <label for="citizen_no">No</label>
+                <input type="radio" value="citizen_no" name="us_citizen" id="citizen_no">
+                </section>
+                
+                <p class="felon">Have you ever been convicted of a felon?</p>
+                <section>
+                <label for="felon_yes">Yes</label>
+                <input type="radio" value="felon_yes" name="felon" id="felon_yes">
+                <label for="felon_no">No</label>
+                <input type="radio" value="felon_no" name="felon" id="felon_no">
+                </section>
+                
+                <p id="certificate">If you are under the age of 18, do you have<br/> an employment&#47;
+                age certificate?</p>
+                <section>
+                <label for="age_yes">Yes</label>
+                <input type="radio" value="age_yes" name="age_certificate" id="age_yes">
+                <label for="age_no">No</label>
+                <input type="radio" value="age_no" name="age_certificate" id="age_no">
+                </section>
+                <input type="reset" name="reset" id="reset1">
+                <input type="button" id="next1" name="button" value="Next" />
+            </form>
+            </fieldset>
+            
+        <fieldset id="page2">
+        <legend>Availabilty</legend>                  
+            	<p class="page">Page 2 of 5<p>        
+            	<form action="" method="post" id="availabilty">
+                
+                <p class="felon">Are you applying for a full-time or part-time position?</p>
+                <section>
+                <label for="full_time">Full-Time</label>
+                <input type="radio" value="full_time" name="available" id="full_time">
+                <label for="part_time">Part-Time</label>
+                <input type="radio" value="part_time" name="available" id="part_time">
+                </section>                           
+		</form>
+        		<form action="" method="post" id="full_time2">
+                <p class="felon">Are you available to work weekends?</p>
+                <section>
+                <label for="full_time_yes">Yes</label>
+                <input type="radio" value="full_time_yes" name="weekends" id="full_time_yes">
+                <label for="full_time_no">No</label>
+                <input type="radio" value="full_time_no" name="weekends" id="full_time_no">
+                </section>
+                <input type="reset" name="reset" id="reset2">
+                <input type="button" id="back1" name="button" value="Back" />
+                <input type="button" id="next2" name="button" value="Next" />    
+        </form>
+        		<form action="" method="post" id="part_time2">
+                <p class="felon">Days of the week available:</p>
+                <section id="week_boxes">
+                <label for="monday">Monday</label>
+                <input type="checkbox" value="monday" name="week" id="monday">
+                <label for="tuesday">Tuesday</label>
+                <input type="checkbox" value="tuesday" name="week" id="tuesday">
+                <label for="wednesday">Wednesday</label>
+                <input type="checkbox" value="wednesday" name="week" id="wednesday">
+                <label for="thursday">Thursday</label>
+                <input type="checkbox" value="thursday" name="week" id="thursday">
+                <label for="friday">Friday</label>
+                <input type="checkbox" value="friday" name="week" id="friday">
+                <label for="saturday">Saturday</label>
+                <input type="checkbox" value="saturday" name="week" id="saturday">
+                <label for="sunday">Sunday</label>
+                <input type="checkbox" value="sunday" name="week" id="sunday">
+                </section>
+                <p class="felon">Hours Available:</p>
+                <section id="hours">
+                <label for="hours_from">From:</label>
+        		<input type="text" name="hours" id="hours_from" maxlength="5" >
+                <label for="hours_to">To:</label>
+        		<input type="text" name="hours" id="hours_to" maxlength="5" >
+                </section>
+                <input type="reset" name="reset" id="reset2">
+                <input type="button" id="back2" name="button" value="Back" />
+                <input type="button" id="next3" name="button" value="Next" />
+         </form>    
+        </fieldset>
+        
+         <fieldset id="page3">
+        <legend>Job Applying For:</legend>                  
+            	<p class="page">Page 3 of 5<p>        
+            	<form action="" method="post" id="job">
+                <p class="felon">Are you applying for a Web-Design or a Web-Development position?</p>
+                <section>
+                <label for="web_design">Web-Design</label>
+                <input type="radio" value="web_design" name="job" id="web_design">
+                <label for="web_development">Web-Development</label>
+                <input type="radio" value="web_development" name="job" id="web_development">
+                </section>                           
+		</form> 
+        <form action="" method="post" id="design_job">
+                <p class="felon">Check the boxes next to the software that you have recieved training for:</p>
+                <section id="software">
+                <label for="flash">Flash</label>
+                <input type="checkbox" value="flash" name="soft_ware" id="flash">
+                <label for="photoshop">Photoshop</label>
+                <input type="checkbox" value="photoshop" name="soft_ware" id="photoshop">
+                <label for="illustrator">Illustrator</label>
+                <input type="checkbox" value="illustrator" name="soft_ware" id="illustrator">
+                 <label for="inDesign">InDesign</label>
+                <input type="checkbox" value="inDesign" name="soft_ware" id="inDesign">
+                </section>                           
+				<p class="felon">Check the boxes next to the software that you have recieved training for:</p>
+                <a><img  id="pic" src="images/question_mark.png"></a>
+                <div><img src="images/balloon.png"></div>
+                <section id="comments">
+        		<label for="user_comment">Type your comment:</label>
+        		<textarea name="user_comment" id="user_comment" rows="4" ></textarea>
+        		</section>
+         
+         <input type="reset" name="reset" id="reset2">
+                <input type="button" id="back3" name="button" value="Back" />
+                <input type="button" id="next4" name="button" value="Next" />  
+         </form>
+         </fieldset> 
+         
+          <fieldset id="page4">
+        <legend>Work History</legend>                  
+            	<p class="page">Page 4 of 5<p>        
+            	<form action="" method="post" id="job">
+                <p class="felon">List previous work experience:</p>
+               <section id="add_job2">
+                <label for="employer">Employer:</label>
+        		<input type="text" name="employer" id="employer" >
+                <label for="job_title">Job Title:</label>
+        		<input type="text" name="job_title" id="job_title" >
+                <label for="job_duties">Job Responsibilities:</label>
+        		<input type="text" name="duties" id="duties" >
+                 <label for="yrs_worked">Years Worked:</label>
+        		<select name="yrs_worked" id="yrs_worked" >
+                	  <option>---</option>
+  					  <option value="under_5">under 5 yrs</option>
+                      <option value="5_10">5 - 10 yrs</option>
+                      <option value="10_15">10 - 15 yrs</option>
+                      <option value="15_over">15&#43; yrs</option>
+                </select>
+                </section>
+                <input type="button" id="add_job" name="button" value="AddJob" />
+                <input type="reset" name="reset" id="reset2">
+                <input type="button" id="back4" name="button" value="Back" />
+                <input type="button" id="next5" name="button" value="Next" />
+         </form>     
+        </fieldset> 
+        
+        <fieldset id="page5">
+        <legend>References</legend>                  
+            	<p class="page">Page 5 of 5<p>        
+            	<form action="" method="post" id="ref">
+                <p class="felon">List three references:</p>
+                <label for="first_name">First Name:</label>
+        		<input type="text" name="first_name" id="first_name" >
+                <label for="last_name">Last Name:</label>
+        		<input type="text" name="last_name" id="last_name" >
+                <label for="j_title">Job Title:</label>
+        		<input type="text" name="j_title" id="j_title" >
+                <label for="phone">Phone Number:</label>
+        		<input type="text" placeholder="xxx" name="phone" id="phone1"  maxlength="3" >
+                <input type="text" placeholder="xxx" name="phone" id="phone2"  maxlength="3" >
+                <input type="text" placeholder="xxxx" name="phone" id="phone3"  maxlength="4" >
+                <hr/>
+                <label for="first_name">First Name:</label>
+        		<input type="text" name="first_name" id="first_name" >
+                <label for="last_name">Last Name:</label>
+        		<input type="text" name="last_name" id="last_name" >
+                <label for="j_title">Job Title:</label>
+        		<input type="text" name="j_title" id="j_title" >
+                <label for="phone">Phone Number:</label>
+        		<input type="text" placeholder="xxx" name="phone" id="phone1"  maxlength="3" >
+                <input type="text" placeholder="xxx" name="phone" id="phone2"  maxlength="3" >
+                <input type="text" placeholder="xxxx" name="phone" id="phone3"  maxlength="4" >
+                 <hr/>
+                <label for="first_name">First Name:</label>
+        		<input type="text" name="first_name" id="first_name" >
+                <label for="last_name">Last Name:</label>
+        		<input type="text" name="last_name" id="last_name" >
+                <label for="j_title">Job Title:</label>
+        		<input type="text" name="j_title" id="j_title" >
+                <label for="phone">Phone Number:</label>
+        		<input type="text" placeholder="xxx" name="phone" id="phone1"  maxlength="3" >
+                <input type="text" placeholder="xxx" name="phone" id="phone2"  maxlength="3" >
+                <input type="text" placeholder="xxxx" name="phone" id="phone3"  maxlength="4" >
+                <label for="user_comment">Type your comment:</label>
+                <textarea name="user_comment" id="user_comment2" rows="4" ></textarea>
+                <input type="reset" name="reset" id="reset3">
+                <input type="button" id="back5" name="button" value="Back" />
+                <input type="submit" name="submit" id="submit">
+                         
+        </form>     
+        </fieldset>
+</body>
+</html>
